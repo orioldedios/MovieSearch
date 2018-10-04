@@ -1,7 +1,16 @@
 package info.pauek.moviesearch;
 
 public class Movie {
-    private String Title, Year, Rated, Runtime, Genre, Director, Writer, Actors, Plot;
+    private String Title;
+    private String Year;
+    private String Rated;
+    private String Runtime;
+    private String Genre;
+    private String Director;
+    private String Writer;
+    private String Actors;
+    private String Plot;
+    private String Poster;
 
     public String getTitle() {
         return Title;
@@ -38,4 +47,9 @@ public class Movie {
     public String getPlot() {
         return Plot;
     }
+
+    public String getPoster() {
+        return Poster;
+    }
+
 }
